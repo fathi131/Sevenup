@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: cyan;
+}
+header .left{
+    display: flex;
+    align-items: center;
+}
+header .left img{
+    height:70px;
+    width: 70px;
+    padding: 20px;
+}
+header .right ul li img{
+    height: 36px;
+    width: 30px            ;
+}
+header .right{
+    display: flex;  
+    align-items: center;
+}
+header .right .nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header .right .nav li{
+    margin:  0 20px;
+}
+header .right .social{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header .right .social li{
+    margin: 0 5px;
+}
+.main{
+    background-image: url('https://www.7up.com/images/simple-7up/tropical-header.png');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}  
+header .right .nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+.main div h1{
+    color: #fff;
+    padding-top: 250px;
+    font-size: 43px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-bottom :50px;
+
+}
+.main div{
+    margin-left: 50px;
+}
+.main div .button{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 16px 20px;
+    border-radius: 30px;
+}
