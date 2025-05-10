@@ -74,3 +74,93 @@ header .right .nav li a{
     padding: 16px 20px;
     border-radius: 30px;
 }
+.recipes{
+    background-image: url("https://www.7up.com/images/simple-7up/image2.png");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.recipes div{
+    position: relative;
+    margin:  auto;
+    width: 450px;
+    top: 200px;
+    padding: 30px 40px;
+    background: #0A5B2BCC;
+    border-radius: 160px;
+    text-align: center;
+
+}
+.recipes div h2{
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.recipes div p{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.recipes div a{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.store-locator{
+    background: url("https://www.7up.com/images/simple-7up/image1.png");
+    background size: cover;
+    height: 600px;
+    width: 100%;
+}
+.store-locator div{
+     position: relative;
+    margin:  auto;
+    width: 450px;
+    top: 200px;
+    padding: 30px 40px;
+    background: #0A5B2BCC;
+    border-radius: 160px;
+    text-align: center;
+
+}
+.store-locator div h2{
+    font-size: 36px;
+    color: #fff;
+    margin-bottom:  20px;
+}
+.store-locator div p{
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.store-locator div a{
+     color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+footer{
+    background: #3e3e3e;
+    padding: 0px 15px 48px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 20px 0;   
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
